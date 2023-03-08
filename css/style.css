@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+.header span {
+    display: block;
+    background-color: #1CD1B0;
+    padding: 10px 28px;
+}
+.header h1{
+    background-color: #00669F;
+     font-weight: 400;
+     padding: 28px;  
+}
+section{
+    display: flex;
+    justify-content: center;
+    padding: 154px 32px ;
+}
+.card{
+    width: 350px;
+    margin-left: 30px;
+}
+.card-header{
+    height: 300px;
+    background-image: url('../img/img-back_batman.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px 25px 0 0;
+}
+#harleyQuinn{
+    background-image: url('../img/img-back_harleyquenn.png');  
+}
+.card-header img{
+    padding: 15px;
+}
+.card-body{
+ background-color:#F3F3F3;
+ display: flex;
+ flex-direction: column;
+ border-bottom: 2px solid #b9b8b8;
+}
+.card-body img {
+    border-radius: 50%;
+    align-self: center;
+    transform: translateY(-65px); 
+} 
+.card-body h2{
+    text-align: center;
+    padding: 15px 0;
+}
+.card-body p{
+    padding: 0 16px;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 18px;
+}
+.card-btn{
+    align-self: center;
+    font-size: 15px;
+    background-color: #00669F;
+    color: #ffff;
+    padding: 15px 37px;
+    margin: 25px;
+    border: #00669F;
+}
+footer{
+    background-color: #00669F;
+    padding: 16px;
+    color: #F3F3F3;
+}
